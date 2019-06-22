@@ -17,12 +17,13 @@ public class StoryTest {
     @Test
     public void hasOverride() {
         Assertions.assertTrue(
-                ProjectSourceFileReader.readAsString(User.class).contains("@Override"));
+                ProjectSourceFileReader.readAsString(MonsterStory.class).contains("@Override"));
     }
 
     @Test
     public void hasSuper() {
         Assertions.assertTrue(
-                ProjectSourceFileReader.readAsString(User.class).contains("super.endStory"));
+                ProjectSourceFileReader.readAsString(MonsterStory.class)
+                        .contains("super.endStory"));
     }
 }
