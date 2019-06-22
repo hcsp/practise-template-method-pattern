@@ -1,6 +1,6 @@
 package com.github.hcsp.inheritance;
 
-public class MonsterStory {
+public class MonsterStory extends Story {
     // 请补全本类，使得main方法可以输出以下内容：
     //
     // 开始讲故事啦
