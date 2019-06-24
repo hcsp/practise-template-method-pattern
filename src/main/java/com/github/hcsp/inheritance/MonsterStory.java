@@ -9,7 +9,7 @@ public class MonsterStory extends Story {
     // 你还想听吗
     @Override
     public void story() {
-        System.out.println("从前有个老和尚");
+        System.out.println("从前有个老妖怪");
     }
 
     @Override
