@@ -13,6 +13,11 @@ public class MonsterStory extends Story {
         System.out.println("你还想听吗");
     }
 
+    @Override
+    public void story(){
+        System.out.println("从前有个老妖怪");
+    }
+
     public static void main(String[] args) {
         new MonsterStory().tellStory();
     }
