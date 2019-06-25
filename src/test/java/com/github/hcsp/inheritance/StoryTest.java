@@ -12,12 +12,14 @@ public class StoryTest {
     public void test(CaptureSystemOutput.OutputCapture capture) {
         capture.expect(Matchers.matchesRegex("(?s).*开始讲故事啦\\s+从前有个老妖怪\\s+故事讲完啦\\s+你还想听吗.*"));
         new MonsterStory().tellStory();
+        System.out.println(System.getProperty("file.encoding"));
     }
 
     @Test
     public void hasOverride() {
         Assertions.assertTrue(
                 ProjectSourceFileReader.readAsString(MonsterStory.class).contains("@Override"));
+        System.out.println(System.getProperty("file.encoding"));
     }
 
     @Test
@@ -25,5 +27,6 @@ public class StoryTest {
         Assertions.assertTrue(
                 ProjectSourceFileReader.readAsString(MonsterStory.class)
                         .contains("super.endStory"));
+        System.out.println(System.getProperty("file.encoding"));
     }
 }
