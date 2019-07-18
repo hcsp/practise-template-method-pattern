@@ -1,7 +1,7 @@
 package com.github.hcsp.inheritance;
 
 public class Story {
-    public final void tellStory() {
+    public void tellStory() {
         startStory();
         story();
         endStory();
@@ -18,7 +18,6 @@ public class Story {
     public void endStory() {
         System.out.println("故事讲完啦");
     }
-
     public static void main(String[] args) {
         new Story().tellStory();
     }
