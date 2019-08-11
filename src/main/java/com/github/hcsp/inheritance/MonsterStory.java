@@ -10,21 +10,17 @@ public class MonsterStory extends Story {
 
 
     @Override
-    public void tellStory() {
-        super.startStory();
-        story();
-        super.endStory();
-        agin();
-    }
-
-    @Override
     public void story() {
         System.out.println("从前有个老妖怪");
     }
 
-    public void agin(){
+    @Override
+    public void endStory() {
+        super.endStory();
         System.out.println("你还想听吗");
     }
+
+
 
 
     public static void main(String[] args) {
