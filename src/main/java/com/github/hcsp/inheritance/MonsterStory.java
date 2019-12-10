@@ -13,7 +13,6 @@ public class MonsterStory extends Story {
         System.out.println(" 你还想听吗");
     }
     public static void main(String[] args) {
-
         new MonsterStory().tellStory();
     }
 }

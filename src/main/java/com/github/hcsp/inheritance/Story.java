@@ -13,6 +13,7 @@ public class Story {
 
     public void story() {
         System.out.println(" 从前有个老妖怪");
+
     }
 
     public void endStory() {
