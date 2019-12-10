@@ -5,6 +5,7 @@ public class Story {
         startStory();
         story();
         endStory();
+        wannaContinue();
     }
 
     public void startStory() {
@@ -17,6 +18,10 @@ public class Story {
 
     public void endStory() {
         System.out.println("故事讲完啦");
+    }
+
+    public void wannaContinue() {
+        System.out.println("你还想听吗");
     }
 
     public static void main(String[] args) {
