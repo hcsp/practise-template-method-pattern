@@ -16,13 +16,11 @@ public class MonsterStory extends Story {
 
     @Override
     public void endStory() {
-        System.out.println("故事讲完啦");
+        super.endStory();
         System.out.println("你还想听吗");
     }
 
     public static void main(String[] args) {
-
-
         new MonsterStory().tellStory();
     }
 
