@@ -9,6 +9,7 @@ public class MonsterStory extends Story {
     // 从前有个老妖怪
     // 故事讲完啦
     // 你还想听吗
+    @Override
     public  void tellStory() {
         super.startStory();
         story();
