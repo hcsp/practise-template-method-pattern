@@ -10,7 +10,7 @@ public class MonsterStory extends Story {
     // 故事讲完啦
     // 你还想听吗
     public  void tellStory() {
-        startStory();
+        super.startStory();
         story();
         super.endStory();
         listen();
