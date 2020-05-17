@@ -1,6 +1,21 @@
 package com.github.hcsp.inheritance;
 
 public class MonsterStory extends Story {
+    @Override
+    public void startStory() {
+        super.startStory();
+    }
+
+    @Override
+    public void story() {
+        super.story();
+    }
+
+    @Override
+    public void endStory() {
+        super.endStory();
+    }
+
     // 请补全本类，使得main方法可以输出以下内容：
     //
     // 开始讲故事啦
@@ -8,6 +23,7 @@ public class MonsterStory extends Story {
     // 故事讲完啦
     // 你还想听吗
     public static void main(String[] args) {
+
         new MonsterStory().tellStory();
     }
 }
