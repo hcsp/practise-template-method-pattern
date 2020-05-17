@@ -1,5 +1,7 @@
 package com.github.hcsp.inheritance;
 
+import java.sql.SQLOutput;
+
 public class MonsterStory extends Story {
 
 
@@ -23,5 +25,6 @@ public class MonsterStory extends Story {
     public static void main(String[] args) {
 
         new MonsterStory().tellStory();
+        System.out.println("你还想听吗");
     }
 }
