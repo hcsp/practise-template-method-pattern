@@ -1,6 +1,6 @@
 package com.github.hcsp.inheritance;
 
-import java.sql.SQLOutput;
+
 
 public class MonsterStory extends Story {
 
@@ -14,6 +14,12 @@ public class MonsterStory extends Story {
     @Override
     public void endStory() {
         super.endStory();
+        System.out.println("你还想听吗");
+    }
+
+    @Override
+    public void startStory() {
+        super.startStory();
     }
 
     // 请补全本类，使得main方法可以输出以下内容：
@@ -25,6 +31,7 @@ public class MonsterStory extends Story {
     public static void main(String[] args) {
 
         new MonsterStory().tellStory();
-        System.out.println("你还想听吗");
+
+
     }
 }
