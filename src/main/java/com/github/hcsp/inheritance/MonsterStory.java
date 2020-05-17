@@ -1,10 +1,8 @@
 package com.github.hcsp.inheritance;
 
 public class MonsterStory extends Story {
-    @Override
-    public void startStory() {
-        super.startStory();
-    }
+
+
 
     @Override
     public void story() {
