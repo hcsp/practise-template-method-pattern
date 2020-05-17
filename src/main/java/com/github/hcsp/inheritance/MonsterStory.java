@@ -8,7 +8,8 @@ public class MonsterStory extends Story {
 
     @Override
     public void story() {
-        super.story();
+
+        System.out.println("从前有个老妖怪");
     }
 
     @Override
