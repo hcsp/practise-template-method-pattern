@@ -17,10 +17,7 @@ public class MonsterStory extends Story {
         System.out.println("你还想听吗");
     }
 
-    @Override
-    public void startStory() {
-        super.startStory();
-    }
+
 
     // 请补全本类，使得main方法可以输出以下内容：
     //
