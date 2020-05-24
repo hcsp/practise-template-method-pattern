@@ -10,4 +10,11 @@ public class MonsterStory extends Story {
     public static void main(String[] args) {
         new MonsterStory().tellStory();
     }
+
+    @Override
+    public void endStory() {
+        super.endStory();
+        System.out.println("你还想听吗");
+    }
+
 }
