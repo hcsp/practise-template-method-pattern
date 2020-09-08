@@ -5,9 +5,19 @@ public class MonsterStory extends Story {
     //
     // 开始讲故事啦
     // 从前有个老妖怪
+    @Override
+    public void story(){
+        System.out.println("从前有个老妖怪");
+    }
     // 故事讲完啦
     // 你还想听吗
+    public void askStory(){
+        System.out.println("你还想听吗");
+    }
     public static void main(String[] args) {
-        new MonsterStory().tellStory();
+        new MonsterStory().startStory();
+        new MonsterStory().story();
+        new MonsterStory().endStory();
+        new MonsterStory().askStory();
     }
 }
