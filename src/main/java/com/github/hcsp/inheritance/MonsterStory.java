@@ -15,7 +15,8 @@ public class MonsterStory extends Story {
     }
 
     public static void main(String[] args) {
-        new MonsterStory().tellStory();
-
+        new MonsterStory().startStory();
+        new MonsterStory().story();
+        new MonsterStory().endStory();
     }
 }
