@@ -8,6 +8,9 @@ public class MonsterStory extends Story {
     // 故事讲完啦
     // 你还想听吗
     public static void main(String[] args) {
+
         new MonsterStory().tellStory();
+       System.out.println("你还想听吗");
+
     }
 }
