@@ -17,7 +17,6 @@ public class Story {
 
     public void endStory() {
         System.out.println("故事讲完啦");
-        System.out.println("你还像听吗");;
     }
 
     public static void main(String[] args) {
