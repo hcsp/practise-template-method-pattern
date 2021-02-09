@@ -1,7 +1,7 @@
 package com.github.hcsp.inheritance;
 
 public class Story {
-    public final void tellStory() {
+    public void tellStory() {
         startStory();
         story();
         endStory();
