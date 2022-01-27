@@ -16,6 +16,7 @@ public class MonsterStory extends Story {
         System.out.println("从前有个老妖怪");
     }
 
+
     @Override
     public void endStory() {
         super.endStory();
