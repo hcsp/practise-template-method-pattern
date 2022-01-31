@@ -21,6 +21,10 @@ public class MonsterStory extends Story {
         System.out.print("故事讲完啦 ");
     }
 
+    public void ending() {
+        System.out.print("故事讲完啦 ");
+    }
+
     public static void main(String[] args) {
         new MonsterStory().tellStory();
     }
