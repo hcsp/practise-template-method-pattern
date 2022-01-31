@@ -7,10 +7,6 @@ public class MonsterStory extends Story {
     // 从前有个老妖怪
     // 故事讲完啦
     // 你还想听吗
-    @Override
-    public void startStory() {
-        System.out.println("开始讲故事啦" );
-    }
 
     @Override
     public void story() {
@@ -18,7 +14,7 @@ public class MonsterStory extends Story {
     }
     @Override
     public void endStory() {
-        System.out.println("故事讲完啦");
+        super.endStory();
         System.out.println("你还想听码.");
     }
 
