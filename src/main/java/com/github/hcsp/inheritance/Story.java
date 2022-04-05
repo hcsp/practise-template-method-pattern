@@ -1,20 +1,10 @@
 package com.github.hcsp.inheritance;
 
-//import jdk.swing.interop.SwingInterOpUtils;
-
-import java.sql.SQLOutput;
-
 public class Story {
     public final void tellStory() {
         startStory();
         story();
         endStory();
-        endListen();
-
-    }
-
-    private void endListen() {
-        System.out.println("你还想听吗");
     }
 
     public void startStory() {
