@@ -19,6 +19,7 @@ public class MonsterStory  extends Story {
     @Override
 
     public void endStory() {
+
         super.endStory();
         System.out.print("你还想听吗");
     }
