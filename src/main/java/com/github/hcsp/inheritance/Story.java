@@ -10,6 +10,7 @@ public class Story {
         story();
         endStory();
         endListen();
+
     }
 
     private void endListen() {
